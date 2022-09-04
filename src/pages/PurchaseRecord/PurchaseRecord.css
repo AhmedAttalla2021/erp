@@ -1,0 +1,148 @@
+.PRwrapper {
+  width: 100%;
+
+  background-color: #f6f5f5;
+  padding: 30px;
+}
+
+.PRwrapper .containerDiv {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.PRwrapper .containerDiv .PRheaderDiv {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 80%;
+  margin: 1em auto;
+  margin-bottom: 0em;
+}
+.PRwrapper .containerDiv .PRheaderDiv .PRtitleDateDiv {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 1em;
+}
+.PRwrapper .containerDiv .PRheaderDiv .PRtitleDateDiv .PRtitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3em;
+}
+.PRwrapper .containerDiv .PRheaderDiv .PRtitleDateDiv .PRtitle .PRtitleTxt {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  border: none;
+  background-color: #e6f8e8;
+  border-radius: 8px;
+  box-shadow: 0px 2px 2px lightgrey;
+  font-size: large;
+}
+.PRheaderDiv .datePickerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 25%;
+  margin-bottom: 4em;
+}
+.MuiContainer-root .titleDateDiv .datePickerDiv .dateTxt {
+  text-align: right;
+}
+.PRtableRow .PRtableCell {
+  width: 10%;
+  border: 3px double black;
+  color: #1b4738;
+  font-weight: 500;
+}
+.MuiTable-root
+  .MuiTableBody-root
+  .MuiTableRow-root
+  .MuiTableRow-root:last-child
+  td {
+  border: 3px double black;
+}
+.MuiTable-root
+  .MuiTableBody-root
+  .MuiTableRow-root
+  .css-34nofg-MuiTableRow-root:last-child {
+  border: 3px double black;
+}
+.MuiTable-root
+  .MuiTableBody-root
+  .MuiTableRow-root
+  .css-34nofg-MuiTableRow-root:last-child
+  td,
+.MuiTable-root
+  .MuiTableBody-root
+  .MuiTableRow-root
+  .css-34nofg-MuiTableRow-root:last-child
+  th {
+  border: 0px solid;
+}
+/* .titleDateDiv .title {
+  flex-grow: 1;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+} */
+
+/* .titleDateDiv .title .titleTxt {
+  border: none;
+  width: 100%;
+  background-color: #e6f8e8;
+  border-radius: 8px;
+  box-shadow: 0px 2px 2px lightgrey;
+} */
+
+input::placeholder {
+  font-size: 14px;
+  font-family: "Tajawal", sans-serif;
+  opacity: 0.7;
+}
+/* .datePickerDiv {
+  width: 100%;
+} */
+
+@media all and (max-width: 800px) {
+  .PRwrapper .containerDiv .PRheaderDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    width: 80%;
+    margin: 1em auto;
+    margin-bottom: 0em;
+  }
+  .PRwrapper .containerDiv .PRheaderDiv .PRtitleDateDiv {
+    width: 100%;
+  }
+  .PRwrapper .containerDiv .PRheaderDiv .PRtitleDateDiv .PRtitle .PRtitleTxt {
+    padding: 0.25em;
+    font-size: medium;
+    width: 90%;
+  }
+  .PRwrapper .containerDiv .PRheaderDiv .PRtitleDateDiv .PRtitle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .PRheaderDiv .datePickerWrapper {
+    width: 80%;
+    margin-bottom: 2em;
+  }
+  .datePickerDiv .dateTxt {
+    font-size: 12px;
+  }
+  .PRtableRow .PRtableCell {
+    width: 5%;
+    padding: 2px;
+  }
+}

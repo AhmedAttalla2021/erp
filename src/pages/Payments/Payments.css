@@ -1,0 +1,180 @@
+.PAtitleDateDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 2em;
+}
+.PAbalance {
+  /* width: 20%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.PAbalance .PAbalanceValue {
+  /* width: 40%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0em 0.5em;
+  border: none;
+  height: 25%;
+  box-shadow: 0 2px 5px lightgrey;
+}
+.PAbalance .PAbalanceTxt {
+  padding: 0.25em;
+  font-weight: 600;
+  font-size: small;
+  text-align: left;
+}
+.PAtitle {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PAdatePickerDiv {
+  width: 20%;
+}
+.PAtitleDateDiv .PAtitle .PAtitleTxt {
+  border: none;
+  width: 100%;
+  background-color: #e6f8e8;
+  border-radius: 8px;
+  box-shadow: 0px 2px 2px lightgrey;
+  /* padding: 0.25em; */
+  font-weight: 600;
+  font-size: large;
+  padding: 9px 0px;
+}
+
+.PAbalance .PAtitleTxt {
+  font-weight: 600;
+  font-size: small;
+  margin-bottom: 0.5em;
+}
+.MuiContainer-root .PAtitleDateDiv .PAdatePickerDiv .PAdateTxt {
+  text-align: right;
+  font-weight: 600;
+}
+.PAsearchDiv {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+.PAModalPara {
+  font-size: medium;
+  font-weight: 500;
+  opacity: 0.8;
+}
+@media all and (max-width: 500px) {
+  .PAtitleDateDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+    margin-bottom: 2em;
+  }
+  .PAbalance {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+    /* align-items: center; */
+  }
+  .PAbalance .PAbalanceValue {
+    /* width: 70%; */
+    border: none;
+    padding: 0.4em;
+
+    box-shadow: 0 2px 5px lightgrey;
+  }
+  .PAtitle {
+    width: 70%;
+    margin-bottom: 1em;
+  }
+  .PAdatePickerDiv {
+    width: 60%;
+    margin-right: 0.7em;
+  }
+  .MuiContainer-root .PAtitleDateDiv .PAdatePickerDiv .PAdateTxt {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .PAsearchDiv {
+    width: 90%;
+  }
+  .PAModalPara {
+    font-size: small;
+  }
+  .PAtitle {
+    position: absolute;
+    top: 4em;
+  }
+  .PAtitleDateDiv {
+    margin-top: 3.5em;
+  }
+  .PAbalance {
+    margin-bottom: 0.5em;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 900px) {
+  .PAtitleDateDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+    margin-bottom: 2em;
+  }
+  .PAbalance {
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+    /* align-items: center; */
+  }
+  .PAbalance .PAbalanceValue {
+    /* width: 50%; */
+    border: none;
+    padding: 0.4em;
+
+    box-shadow: 0 2px 5px lightgrey;
+  }
+  .PAtitle {
+    width: 50%;
+    margin-bottom: 1em;
+  }
+  .PAdatePickerDiv {
+    width: 40%;
+    margin-right: 0.7em;
+  }
+  .MuiContainer-root .PAtitleDateDiv .PAdatePickerDiv .PAdateTxt {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .PAsearchDiv {
+    width: 90%;
+  }
+  .PAtitle {
+    position: absolute;
+    top: 4em;
+  }
+  .PAtitleDateDiv {
+    margin-top: 3.5em;
+  }
+  .PAbalance {
+    margin-bottom: 0.5em;
+  }
+}

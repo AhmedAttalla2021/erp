@@ -1,0 +1,189 @@
+.sourceCodingHeader {
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 1em;
+}
+.codingBtnsDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+.codingBtnsDiv .sourceLogoDiv {
+  height: 50px;
+  background: #e8e9dc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 45%;
+}
+.sourceCodingBtnPara {
+  color: #0d9464;
+  font-size: small;
+  font-weight: 500;
+}
+.sourceLogoDiv .sourceCodingSvg {
+  color: #0d9464;
+  font-size: 18px;
+}
+.sourceLogoDiv:hover {
+  background: rgb(13, 148, 100);
+}
+.sourceLogoDiv:hover .sourceCodingSvg {
+  color: #e8e9dc;
+}
+.sourceLogoDiv:hover .sourceCodingBtnPara {
+  color: #e8e9dc;
+}
+.sourceSearch {
+  width: 65%;
+}
+
+.inputSearch:focus {
+  outline: none;
+}
+
+/*************dialog style*********/
+/*dialog body*/
+
+.css-hz1bth-MuiDialog-container .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 35vw;
+  border-radius: 15px;
+}
+/*dialog header*/
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+  background-color: #e6f8e8;
+}
+.MuiDialogTitle-root
+  + .css-ypiqx9-MuiDialogContent-root
+  .formDetails
+  .css-18k87ye-MuiTypography-root {
+  /* display: flex;
+    justify-content: end;
+    align-items: end; */
+  text-align: right;
+  margin-top: 1em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.formInputsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  /* justify-content: space-between; */
+  margin-top: 10px;
+}
+.formInputsDiv .formTypography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Tajawal", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* .MuiModal-root
+  .MuiModal-root
+  .MuiDialog-container
+  .Muipaper-root
+  .MuiDialogTitle-root {
+  font-family: "Tajawal", sans-serif;
+} */
+.formInputsDiv .formTextFeild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formInputsDiv .formTextFeild {
+  border: 0.5px solid;
+  border-color: rgb(192, 191, 191);
+  border-radius: 8px;
+  padding: 0.7em;
+  box-shadow: 0px 2px 2px lightgrey;
+}
+/*dialog btns div*/
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-hlj6pa-MuiDialogActions-root {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 0.5em;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper
+  .css-hlj6pa-MuiDialogActions-root
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 0;
+  box-shadow: 0px 2px 2px lightgrey;
+  font-weight: bold;
+}
+
+/*dialog header*/
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+  text-align: right;
+}
+
+/*** table **/
+.MuiPaper-root .css-3eadxb-MuiTable-root {
+  min-width: fit-content;
+}
+/*******/
+
+@media all and (max-width: 700px) {
+  .sourceCodingHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .codingBtnsDiv {
+    width: 60%;
+  }
+  .sourceLogoDiv {
+    height: 50px;
+    background: #e8e9dc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 32%;
+    margin-bottom: 0.5em;
+  }
+  .sourceSearch {
+    width: 100%;
+    margin-top: 1em;
+    font-size: 12px;
+  }
+  .sourceLogoDiv .sourceCodingBtnPara {
+    font-size: 10px;
+    font-weight: 700;
+  }
+  .css-hz1bth-MuiDialog-container .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 70vw;
+  }
+  .formInputsDiv .formTypography {
+    font-size: 12px;
+  }
+}
+@media all and (min-width: 700px) and (max-width: 1000px) {
+  .sourceSearch {
+    width: 60%;
+  }
+  .codingBtnsDiv {
+    width: 30%;
+  }
+  .css-hz1bth-MuiDialog-container .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 50vw;
+  }
+}

@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.salesMain {
+  height: 100vh;
+  width: 100vw;
+}
+.salesMain .container {
+  height: 80%;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 3px rgb(165, 163, 163);
+}
+.titleLogo {
+  width: 100%;
+  /* height: 10%; */
+  display: flex;
+}
+.titleLogo .logo {
+  /* height: 100%; */
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
+  background-image: url("../../../public/company-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.titleLogo .title {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+.titleLogo .title .name {
+  display: flex;
+}
+.mainTitle {
+  color: #0d9464;
+  font-size: 20px;
+  font-weight: bold;
+}
+.titleLogo .title .number {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.uploadBtn {
+  border: none;
+  background-color: white;
+
+  font-size: 18px;
+  cursor: pointer;
+}
+.uploadBtn:hover {
+  color: rgb(15, 192, 103);
+}
+
+.date {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

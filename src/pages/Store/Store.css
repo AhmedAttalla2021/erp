@@ -1,0 +1,284 @@
+.storeHeader {
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 1em;
+}
+.antdM {
+  z-index: 999999 !important;
+}
+.logoDiv {
+  height: 50px;
+  background: #e8e9dc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 12%;
+}
+.logoDiv:hover {
+  background: rgb(13, 148, 100);
+}
+.logoDiv:hover .storeCodingSvg {
+  color: #e8e9dc;
+}
+.logoDiv:hover .storeCodingBtnPara {
+  color: #e8e9dc;
+}
+
+.storeSearch {
+  width: 75%;
+}
+
+p {
+  font-family: "Tajawal", sans-serif;
+  /* font-weight: bolder; */
+}
+.logoDiv .storeCodingSvg {
+  color: #0d9464;
+  font-size: 18px;
+}
+.storeCodingBtnPara {
+  color: #0d9464;
+  font-size: small;
+  font-weight: 500;
+}
+
+.MuiTableRow-root .MuiTableCell-root {
+  font-family: "Tajawal", sans-serif;
+  font-weight: bolder;
+}
+.MuiTable-root .MuiTableBody-root .MuiTableRow-root .MuiTableCell-root {
+  font-family: "Tajawal", sans-serif;
+  /* font-weight: bolder; */
+  border: 3px double black;
+}
+.css-hz1bth-MuiDialog-container
+  .css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+  font-family: "Tajawal", sans-serif;
+}
+.formInputsDiv .MuiTypography-root {
+  font-family: "Tajawal", sans-serif;
+}
+
+.inputSearch:focus {
+  outline: none;
+}
+
+.MuiModal-root .MuiBackdrop-root {
+  /**  background when dialog displayed***/
+  background-color: rgba(0, 0, 0, 0.795);
+}
+/*************dialog style*********/
+/*dialog body*/
+
+.css-hz1bth-MuiDialog-container .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 35vw;
+  border-radius: 15px;
+}
+/*dialog header*/
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+  background-color: #e6f8e8;
+}
+.MuiDialogTitle-root
+  + .css-ypiqx9-MuiDialogContent-root
+  .formDetails
+  .css-18k87ye-MuiTypography-root {
+  /* display: flex;
+  justify-content: end;
+  align-items: end; */
+  text-align: right;
+  margin-top: 1em;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root {
+  padding-left: 4em;
+  margin-top: 1em;
+}
+.formInputsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  /* justify-content: space-between; */
+  margin-top: 10px;
+}
+.formInputsDiv .storeFormTypography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  font-size: 16px;
+  font-weight: 500;
+}
+.formInputsDiv .formTextFeild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 67%;
+  margin-right: 3%;
+  text-align: center;
+}
+
+.formInputsDiv .formTextFeild {
+  border: 0.5px solid;
+  border-color: rgb(192, 191, 191);
+  border-radius: 8px;
+  padding: 0.7em;
+  box-shadow: 0px 2px 2px lightgrey;
+}
+/*dialog btns div*/
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-hlj6pa-MuiDialogActions-root {
+  display: flex;
+  justify-content: left;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper
+  .css-hlj6pa-MuiDialogActions-root
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 0;
+  box-shadow: 0px 2px 2px lightgrey;
+  font-weight: bold;
+}
+
+/*dialog header*/
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+  text-align: right;
+}
+
+.MuiDialogContent-root .formInputsDiv select {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.MuiDialogContent-root .formInputsDiv select .listItem {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: blue;
+  margin: 20px;
+}
+
+.dropdown:hover .dropdown-list {
+  opacity: 1;
+  visibility: visible;
+}
+/* .dropdown:active .dropdown-list {
+  opacity: 1;
+  visibility: visible;
+} */
+.dropdown .dropdown-list {
+  transition: opacity 0.2s linear, visibility 0.2s linear;
+  border-radius: 4px;
+  background-color: blue;
+  color: white;
+  position: absolute;
+  top: 118%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.MuiDialogContent-root .formInputsDiv select::part(option) {
+  padding: 30px;
+}
+
+/***** select menu css ****/
+.formInputsDiv .css-1nr8fbn {
+  width: 67%;
+  margin-right: 3%;
+  padding: 0%;
+}
+.formInputsDiv .css-1nr8fbn .MuiOutlinedInput-root {
+  width: 100%;
+  max-height: 37px;
+  border-radius: 8px;
+
+  box-shadow: 0px 2px 2px lightgrey;
+}
+.MuiMenu-list {
+  max-height: 250px;
+}
+/* .MuiPaper-root .MuiList-root:not(:last-child) {
+  border-bottom: 1px solid;
+} */
+/*********/
+.formDetails .storeDetailsSec1 {
+  width: 50%;
+  text-align: right;
+}
+.formDetails .storeDetailsSec2 {
+  width: 50%;
+  text-align: right;
+}
+
+@media all and (max-width: 700px) {
+  .storeHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .logoDiv {
+    height: 50px;
+    background: #e8e9dc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 32%;
+  }
+  .storeSearch {
+    width: 100%;
+    margin-top: 1em;
+    font-size: 12px;
+  }
+  .logoDiv .storeCodingBtnPara {
+    font-size: 10px;
+    font-weight: 700;
+  }
+  .formInputsDiv .storeFormTypography {
+    font-size: 12px;
+    /* width: 25%; */
+  }
+  /* .formInputsDiv .formTextFeild {
+    width: 67%;
+  } */
+  /*.formInputsDiv .storeSelectMenu {
+    width: 60%;
+  } */
+  .formDetails .storeDetailsSec1 {
+    width: 50%;
+  }
+  .formDetails .storeDetailsSec2 {
+    width: 50%;
+  }
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root {
+    padding-left: 0em;
+    margin-top: 1em;
+  }
+}
+@media all and (min-width: 700px) and (max-width: 1000px) {
+  .css-hz1bth-MuiDialog-container .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 50vw;
+  }
+  .formInputsDiv .storeFormTypography {
+    font-size: 14px;
+  }
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root {
+    padding-left: 0em;
+    margin-top: 1em;
+  }
+}

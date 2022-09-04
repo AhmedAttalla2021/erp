@@ -1,0 +1,118 @@
+.SRwrapper {
+  width: 100%;
+
+  background-color: #f6f5f5;
+  padding: 30px;
+}
+
+.SRwrapper .containerDiv {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.SRwrapper .containerDiv .SRheaderDiv {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 80%;
+  margin: 1em auto;
+  margin-bottom: 0em;
+}
+.SRwrapper .containerDiv .SRheaderDiv .SRtitleDateDiv {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 1em;
+}
+.SRwrapper .containerDiv .SRheaderDiv .SRtitleDateDiv .SRtitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3em;
+}
+.SRwrapper .containerDiv .SRheaderDiv .SRtitleDateDiv .SRtitle .SRtitleTxt {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  border: none;
+  background-color: #e6f8e8;
+  border-radius: 8px;
+  box-shadow: 0px 2px 2px lightgrey;
+  font-size: large;
+}
+.SRheaderDiv .datePickerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 25%;
+  margin-bottom: 4em;
+}
+.MuiContainer-root .titleDateDiv .datePickerDiv .dateTxt {
+  text-align: right;
+}
+.SRtableRow .SRtableCell {
+  width: 10%;
+  border: 3px double black;
+  color: #1b4738;
+  font-weight: 500;
+}
+/* .titleDateDiv .title {
+  flex-grow: 1;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+} */
+
+/* .titleDateDiv .title .titleTxt {
+  border: none;
+  width: 100%;
+  background-color: #e6f8e8;
+  border-radius: 8px;
+  box-shadow: 0px 2px 2px lightgrey;
+} */
+
+input::placeholder {
+  font-size: 14px;
+  font-family: "Tajawal", sans-serif;
+  opacity: 0.7;
+}
+/* .datePickerDiv {
+  width: 100%;
+} */
+
+@media all and (max-width: 800px) {
+  .SRwrapper .containerDiv .SRheaderDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    width: 80%;
+    margin: 1em auto;
+    margin-bottom: 0em;
+  }
+  .SRwrapper .containerDiv .SRheaderDiv .SRtitleDateDiv {
+    width: 100%;
+  }
+  .SRwrapper .containerDiv .SRheaderDiv .SRtitleDateDiv .SRtitle .SRtitleTxt {
+    padding: 0.25em;
+    font-size: medium;
+  }
+  .SRwrapper .containerDiv .SRheaderDiv .SRtitleDateDiv .SRtitle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .SRheaderDiv .datePickerWrapper {
+    width: 80%;
+    margin-bottom: 2em;
+  }
+  .datePickerDiv .dateTxt {
+    font-size: 12px;
+  }
+}

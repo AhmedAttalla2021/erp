@@ -1,0 +1,48 @@
+* {
+  font-family: "Tajawal", sans-serif;
+}
+.loginFormBody {
+  border: 1px solid #857d7d;
+  padding: 60px 30px;
+  color: #0d9464;
+  position: relative;
+  width: 40%;
+}
+.loginFormBody .loginFormTitle {
+  font-size: 32;
+  font-weight: 500;
+  color: #0d9464;
+}
+.loginFormBody .loginBtn {
+  padding: 0.1em 2.5em;
+  font-family: "Tajawal", sans-serif;
+}
+@media all and (max-width: 600px) {
+  .loginFormBody {
+    width: 70%;
+    border: 1px solid #857d7d;
+    padding: 60px 30px;
+    color: #0d9464;
+    position: relative;
+    /* height: 80%; */
+  }
+  .loginFormBody .loginFormTitle {
+    font-size: 20px;
+  }
+  .loginFormBody .loginBtn {
+    padding: 0em 1.5em;
+  }
+}
+@media all and (min-width: 600px) and (max-width: 900px) {
+  .loginFormBody {
+    width: 60%;
+    border: 1px solid #857d7d;
+    padding: 60px 30px;
+    color: #0d9464;
+    position: relative;
+    /* height: 80%; */
+  }
+  .loginFormBody .loginFormTitle {
+    font-size: 26px;
+  }
+}

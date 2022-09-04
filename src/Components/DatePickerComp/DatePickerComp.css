@@ -1,0 +1,16 @@
+.MuiBox-root {
+  /* direction: rtl; */
+}
+.MuiBox-root input {
+  margin-left: 1em;
+  padding: 0.4em;
+  width: 100%;
+  border: none;
+  box-shadow: 0 2px 5px lightgrey;
+  font-size: 13px;
+}
+@media all and (max-width: 700px) {
+  .MuiBox-root input {
+    font-size: 12px;
+  }
+}

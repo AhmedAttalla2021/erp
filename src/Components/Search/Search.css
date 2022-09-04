@@ -1,0 +1,16 @@
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+/* .inputSearch {
+  font-size: x;
+} */
+@media all and (max-width: 800px) {
+  .inputSearch::placeholder {
+    font-size: 11px;
+  }
+  .inputSearch {
+    font-size: 14px;
+  }
+}

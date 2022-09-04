@@ -1,0 +1,1 @@
+web: cd ./erp-system && npm start

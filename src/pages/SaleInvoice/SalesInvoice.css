@@ -1,0 +1,139 @@
+.fovZtz.MuiTableBody-root .MuiTableCell-body {
+  font-weight: 500 !important;
+}
+.fovZtz.MuiTableBody-root .sc-dmRaPn {
+  font-weight: 900 !important;
+}
+/************************/
+.iOnUps .MuiListItemText-root > span {
+  font-size: 22px;
+}
+.printDiv
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root
+  .css-z1o8bu-MuiTable-root,
+.printDiv
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root
+  .css-z1o8bu-MuiTable-root
+  .cNuZpc.MuiTableHead-root,
+.printDiv
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root
+  .css-z1o8bu-MuiTable-root
+  .cNuZpc.MuiTableHead-root
+  .MuiTableCell-head {
+  border: none;
+}
+.printDiv
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root
+  .css-z1o8bu-MuiTable-root
+  .css-34nofg-MuiTableRow-root,
+.printDiv
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root
+  .css-z1o8bu-MuiTable-root
+  .css-34nofg-MuiTableRow-root
+  .MuiTableCell-root {
+  border: none;
+}
+
+/* .printDiv
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root
+  .css-z1o8bu-MuiTable-root
+  .cNuZpc.MuiTableHead-root {
+  border: none;
+}
+.printDiv
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root
+  .css-z1o8bu-MuiTable-root
+  .cNuZpc.MuiTableHead-root
+  .MuiTableCell-head {
+  border: none;
+} */
+/*********************/
+
+@media print {
+  .printDiv {
+    margin-top: 3em;
+  }
+  /* .title {
+    margin-left: 5em;
+  } */
+  .mainHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .css-1osj8n2-MuiGrid-root .invoiceName {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .billNumDiv,
+  .dateDiv,
+  .clientNameDiv,
+  .clientCodeDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .billNumPara,
+  .datePara,
+  .clientNamePara,
+  .clientCodePara {
+    order: 2;
+  }
+  .billNumTxt,
+  .dateTxt,
+  .clientNameTxt,
+  .clientCodeTxt {
+    order: 1;
+  }
+  .clientCodeNameDiv {
+    width: 100% !important;
+  }
+  .clientCodeNameDiv .clientNameDiv {
+    margin-right: 0.75em !important;
+  }
+  .datePara {
+    margin-right: 0em !important;
+  }
+
+  .clientCodeDiv {
+    width: 35% !important;
+  }
+  .clientNamePara {
+    margin-right: 0em !important;
+    width: 100% !important;
+  }
+}
+
+/**************/
+.editable-cell {
+  position: relative;
+}
+
+.editable-cell-value-wrap {
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+  padding: 4px 11px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+[data-theme="dark"] .editable-row:hover .editable-cell-value-wrap {
+  border: 1px solid #434343;
+}
+.ant-table-thead tr .ant-table-cell {
+  text-align: center;
+}
+/* .ant-table-content, */
+.ant-table {
+  border-right: 3px double black;
+  border-bottom: 3px double black;
+}
+.ant-table-cell {
+  border: 3px double black;
+}
+/***************/
